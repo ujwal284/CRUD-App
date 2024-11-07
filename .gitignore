@@ -1,2 +1,2 @@
 node_modules
-MONGODB_URL = "mongodb+srv://strangerme6969:stranger123@crud.4u94w.mongodb.net/Node-API?retryWrites=true&w=majority&appName=crud"
+.env

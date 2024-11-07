@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 
-mongoose.connect("mongodb+srv://strangerme6969:stranger123@crud.4u94w.mongodb.net/Node-API?retryWrites=true&w=majority&appName=crud")
+mongoose.connect(MONGODB_URL)
     .then(() => {
         console.log("Connected to database");
         app.listen(3000, () => {
